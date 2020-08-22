@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@android:color/black"
+    android:padding="10dp"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <Button
+        android:background="@drawable/blue_btn"
+        android:id="@+id/btnOne"
+        android:layout_width="100dp"
+        android:layout_height="100dp"/>
+
+        <Button
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/blue_btn"
+            android:id="@+id/btnTwo"
+            android:layout_width="100dp"
+            android:layout_height="100dp"/>
+        <Button
+            android:layout_marginLeft="5dp"
+            android:id="@+id/btnThree"
+            android:background="@drawable/blue_btn"
+            android:layout_width="100dp"
+            android:layout_height="100dp"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:background="@drawable/pink_btn"
+            android:id="@+id/btnFour"
+            android:layout_width="100dp"
+            android:layout_height="100dp"/>
+
+        <Button
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/yellow_btn"
+            android:id="@+id/btnFive"
+            android:layout_width="100dp"
+            android:layout_height="100dp"/>
+        <Button
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/red_btn"
+            android:id="@+id/btnSix"
+            android:layout_width="100dp"
+            android:layout_height="100dp"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+
+            android:background="@drawable/green_btn"
+            android:id="@+id/btnSeven"
+            android:layout_width="100dp"
+            android:layout_height="100dp"/>
+
+        <Button
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/green_btn"
+            android:id="@+id/btnEight"
+            android:layout_width="100dp"
+            android:layout_height="100dp"/>
+
+        <Button
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/red_btn"
+            android:id="@+id/btnNine"
+            android:layout_width="100dp"
+            android:layout_height="100dp"/>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    //Yellow gradient color
+
+    <color name="yellowStartcolor">#FFC01E</color>
+    <color name="yellowEndcolor">#FB9415</color>
+
+    //
+
+    <color name="blueStartcolor">#1EECFF</color>
+    <color name="blueEndcolor">#067EFF</color>
+
+    <color name="pinkStartcolor">#FF04DE</color>
+    <color name="pinkEndcolor">#F392EE</color>
+
+    <color name="greenStartcolor">#2D9F06</color>
+    <color name="greenEndcolor">#43F623</color>
+
+    <color name="redStartcolor">#FF052A</color>
+    <color name="redEndcolor">#F37070</color>
+
+</resources>
