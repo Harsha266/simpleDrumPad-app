@@ -20,7 +20,7 @@ class MainActivity: AppCompatActivity() {
                 .setContentType(AudioAttributes.CONTENT_TYPE_MUSIC)
                 .build()
 
-            var soundPool = SoundPool.Builder()
+            soundPool = SoundPool.Builder()
                 .setMaxStreams(9)
                 .setAudioAttributes(at)
                 .build()
